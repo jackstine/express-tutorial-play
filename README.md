@@ -1,3 +1,4 @@
+# SERVER
 1. `npm install`
 2. `npm run dev-server`
 
@@ -35,4 +36,8 @@ fetch('http://localhost:7078/users',
 })
 
 ```
+
+## PROMISES
+
+`node src/promises.js`
 
