@@ -1,0 +1,33 @@
+{
+  "name": "express-tutorial-play",
+  "version": "1.0.0",
+  "description": "Express playground for beginners",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-server": "export AUTH_ENV=dev && nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackstine/express-tutorial-play.git"
+  },
+  "keywords": [
+    "playground",
+    "beginners"
+  ],
+  "author": "Jake Cukjati <jakecukjati@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackstine/express-tutorial-play/issues"
+  },
+  "homepage": "https://github.com/jackstine/express-tutorial-play#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http": "*",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
